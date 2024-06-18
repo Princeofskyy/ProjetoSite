@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe2e2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    font-family: 'Poppins', cursive;
+    color: #800000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.headerTitle {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.subtitulo {
+    font-size: 1.5em;
+    color: #800000;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+form {
+    display: inline-block;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #800000;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    font-weight: 500;
+    color: #fff;
+    background-color: #a71616;
+    border: none;
+    padding: 8px 25px;
+    height: 36px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a00000;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+td {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.dados {
+    width: 50%;
+}
+
+.premio {
+    width: 30%;
+    text-align: center;
+}
+
+.foto {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.number {
+    font-size: 1.5em;
+    color: #800000;
+}
